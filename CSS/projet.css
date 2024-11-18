@@ -1,0 +1,50 @@
+html{
+  font-family: "Rockwell", sans-serif;
+  background-color: #3366cc;
+}
+
+/* MENU */
+
+.menu {
+    position: fixed; 
+    display: flex;
+    background-color: rgb(55, 79, 186);
+    width: 825px;
+    justify-content: center;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(73, 185, 245, 0.5) 5px 10px 15px;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 900;
+  }
+  
+  .button {
+  position: relative;
+  outline: 0 !important;
+  border: 0 !important;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  }
+  
+  .button:hover {
+  transform: scale(1.2);
+  }
+  
+  .icon {
+  font-size: 20px;
+  padding: 5px;
+  border-style:solid 30px ;
+  overflow: hidden; 
+  flex-shrink: 0;
+  }
+  
+  /* FIN MENU*/

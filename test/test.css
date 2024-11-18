@@ -1,0 +1,44 @@
+*{
+  overflow: hidden;
+  margin: 0;
+
+}
+
+.section{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(38, 255, 0);
+}
+
+.num1{
+  margin: 3%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 90%;
+  background-color: blueviolet;
+}
+
+.num2{
+  margin: 3%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 90%;
+  background-color: rgb(43, 49, 226);
+}
+
+.num3{
+  margin: 3%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 90%;
+  background-color: rgb(43, 162, 226);
+}

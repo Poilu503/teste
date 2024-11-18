@@ -1,0 +1,178 @@
+
+html{
+  margin: 0;
+  padding: 0;
+  background-color: #3366cc;
+  font-family: "Rockwell", sans-serif;
+}
+
+
+body{
+height: 100vh;
+}
+
+
+/* MENU */
+
+.menu {
+  position: fixed; 
+  display: flex;
+  background-color: rgb(55, 79, 186);
+  width: 825px;
+  justify-content: center;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(73, 185, 245, 0.5) 5px 10px 15px;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 900;
+}
+
+.button {
+  position: relative;
+  outline: 0 !important;
+  border: 0 !important;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
+
+.icon {
+  font-size: 20px;
+  padding: 5px;
+  border-style:solid 30px ;
+  overflow: hidden; 
+  flex-shrink: 0;
+}
+
+/* FIN MENU*/
+
+.c5{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(172, 179, 255);
+}
+
+.path_c5{
+  clip-path: polygon(0 3%, 100% 3%, 100% 97%, 0 97%);
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: #cccccc;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.form_title{
+  background-color: #f0f0f0;
+  padding: 1%;
+  width: 100%;
+  color: #3366cc;
+  clip-path: polygon(0 15%, 100% 15%, 100% 100%, 0% 100%);
+  padding-top: 3%;
+}
+
+.form_title h1{
+  width: 20%;
+  border-bottom: 3px solid;
+} 
+
+/* PARCOURS SCOLAIRE */
+
+.parcour{
+  display: flex;
+  position: relative;
+  margin-top: 2%;
+  flex-direction: row;
+  /* background-image: url("/Portfolio/img/parcour_color.png"); */
+  background-color: #f0f0f0;
+  width: 100%;
+  animation: color;
+  padding: 1%;
+  
+}
+
+
+
+.parcour_title{
+  position: absolute;
+  /* height: 100%; */
+  color: #3366cc;
+  top: -8px;
+  left: 35px;
+  /* width: 20%; */
+  /* margin-left: 3% ; */
+  /* transform: rotate(-60deg); */
+}
+
+.parcour_title h1{
+  border-bottom: 3px solid;
+  padding-bottom: 3%;
+}
+
+.parcour_items{
+  position: relative;
+  width: 98%;
+  margin-top: 3%;
+}
+
+.lycee{
+  margin: 1%;
+  padding: 3%;
+  position: relative;
+  width: 650px;  
+  /* background-color: rgba(128, 128, 128, 0.315); */
+  border : 3px solid;
+}
+
+h2, h4, h6{
+  background-color: #ccccccab;
+}
+
+#droit{
+  background-size: 100% 100%;
+  background-image: url("/img/ddh_.jpg");
+  background-repeat: no-repeat;
+}
+
+#baim{
+  background-size: 100% 100%;
+  background-image: url("/img/baimbridge.jpg");
+  background-repeat: no-repeat;
+}
+
+.text{
+  display: flex;
+  position: relative;
+  text-align: center;
+  /* margin-left: 3%; */
+}
+
+.parcour_text h6 {
+  font-size: 14px;
+}
+
+.parcour_text h4 {
+  font-size: 17px;
+}
+
+.parcour_text h2 {
+  font-size: 30px;
+}
+
+/* PARCOURS PROFESSIONEL */
+

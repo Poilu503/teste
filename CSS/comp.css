@@ -1,0 +1,284 @@
+html{  
+  background-color: #3366cc;
+  font-family: "Rockwell", sans-serif;
+}
+
+/* MENU */
+
+.menu {
+  position: fixed; 
+  display: flex;
+  background-color: rgb(55, 79, 186);
+  width: 825px;
+  justify-content: center;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(73, 185, 245, 0.5) 5px 10px 15px;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 900;
+}
+
+.button {
+position: relative;
+outline: 0 !important;
+border: 0 !important;
+height: 40px;
+border-radius: 50%;
+background-color: transparent;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+transition: all ease-in-out 0.3s;
+cursor: pointer;
+}
+
+.button:hover {
+transform: scale(1.2);
+}
+
+.icon {
+font-size: 20px;
+padding: 5px;
+border-style:solid 30px ;
+overflow: hidden; 
+flex-shrink: 0;
+}
+
+/* FIN MENU*/
+
+/*__________________________COMPÉTENCE_______________________________*/
+
+.c4{
+  background-color: rgb(51, 156, 221);
+  position: relative;
+  height: 100%;
+}
+
+.competence{
+  position: relative;
+  background-color: rgb(135, 227, 69);
+  clip-path: polygon(0 5%, 100% 2%, 100% 95%, 0 98%);
+
+
+  
+}
+
+.path_c4{
+  clip-path: polygon(0 5%, 100% 5%, 100% 95%, 0 95%);
+  padding-top: 15%;
+  padding-bottom: 15%;
+  position: relative;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+
+#particles-js{
+  height: 100%;
+}
+
+.comp_dev_title{
+  position: absolute;
+  color: #3366cc;
+  border-bottom: 2px solid;
+  width: 60%;
+  padding-left: 3%;
+ 
+}
+
+.comp_global{
+  margin-top: 5px;
+  position: absolute;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 70px auto 0;
+}
+
+.comp_items{
+  display: flex;
+  position: relative;
+  background-color: rgba(171, 171, 171, 0.425);
+  justify-content: center;
+  margin: 30px;
+  border:2px solid;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  /* background-color: #3366cc; */
+}
+
+.comp_items_img{
+  width: 75px;
+  height: 75px;
+  margin: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  /* background-color: rgb(241, 247, 247); */
+}
+
+.comp_items_img img{
+  width: 100%;
+  height: auto;
+  /* background-color: aqua; */
+}
+
+.comp_items_name{
+  border-top: 3px solid;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.comp_items_icon{
+  position: relative;
+  border-right: 2px solid;
+
+}
+
+.comp_items_progress{
+  position: relative;  
+  display: flex;
+  flex-direction: column-reverse;
+  width: 10px;
+}
+
+.progress_color{
+  height: 100%;
+}
+
+#html_{
+  padding-top: 15%;
+  background-color: greenyellow;
+  height: 85%;
+}
+
+#css_{
+  padding-top: 15%;
+  background-color: greenyellow;
+  height: 75%;
+}
+
+#php{
+  padding-top: 15%;
+  background-color: greenyellow;
+  height: 55%;
+}
+
+#sharp{
+  padding-top: 15%;
+  background-color: greenyellow;
+  height: 60%;
+}
+
+#python_{
+  padding-top: 15%;
+  background-color: greenyellow;
+  height: 90%;
+}
+
+
+@media screen and (min-width:900px) {
+
+  .path_c4{
+    height: 250px;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+  
+
+}
+
+
+@media screen and (max-width:820px) {
+
+
+  .path_c4{
+    padding-top: 5%;
+    padding-bottom: 30%;
+    clip-path: polygon(0 3%, 100% 5%, 100% 97%, 0 95%);
+    height: 50vh;
+
+  }
+
+  .comp_global{
+    margin-top: 85px;
+    
+  }
+
+}
+
+@media screen and (max-width:720px) {
+
+  .path_c4{
+    padding-top: 5%;
+    padding-bottom: 50%;
+    clip-path: polygon(0 3%, 100% 5%, 100% 97%, 0 95%);
+    height: 50vh;
+
+  }
+
+  .comp_global{
+    margin-top: 120px;
+    
+  }
+
+}
+
+
+
+/* fin compétence*/
+
+/*début certif*/
+
+.certif{
+  position: relative;
+  clip-path: polygon(0 5%, 100% 2%, 100% 95%, 0 98%);
+
+
+}
+
+
+.path_certif{
+  clip-path: polygon(0 5%, 100% 5%, 100% 95%, 0 95%);
+  padding-top: 3%;
+  position: relative;
+  background-color: #f0f0f0;  
+}
+
+.certif_title{
+  position: relative;
+  color: #3366cc;
+  border-bottom: 2px solid;
+  width: 25%;
+  padding-left: 3%;
+}
+
+.certif_global{
+  width: 100%;
+  display: flex;
+  position: relative;
+  padding-bottom: 2%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.certif_items{
+  margin-left: 3%;
+  margin-right: 3%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.certif_items_img{
+  background-color: red;
+  width: 150px;
+  height: 150px;
+}
